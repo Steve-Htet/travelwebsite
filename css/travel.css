@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
+.loginctn{
+	width: 410px;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
+	/*background: red;*/
+
+}
+
+.top h2,p{
+	font-family: 'Kanit', sans-serif;
+	text-align: justify;
+	line-height: 20px;
+
+}
+
+.username,.pw{
+	font-family: 'Kanit', sans-serif;
+	width: 380px;
+	height: 50px;
+	color: silver;
+	display: block;
+	overflow: hidden;
+	border: 1px solid #efefef;
+	border-radius: 7px;
+	padding: 15px 15px;
+    margin-bottom: 1px;
+}
+
+label{
+	font-family: 'Kanit', sans-serif;
+	color: silver;
+
+}
+.fg{
+	width: 200px;
+	font-family: 'Kanit', sans-serif;
+	display: block;
+	text-align: right;
+	text-decoration: underline;
+	color: silver;
+	position: relative;
+	margin-left: 210px;
+	margin-top: -25px;
+}
+
+.lgn button{
+	width: 410px;
+	height: 50px;
+	display: block;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+    border-radius: 5px;
+}
+
+.lbt a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.lgn p{
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	color: grey;
+}
+
+.lbt{
+	background-color: #007bff;
+	border-color:  #007bff;
+	border-style: none;
+	font-weight: bold;
+}
+
+.fbt{
+	background-color: #4267B2;
+	border-color: #4267B2;
+	font-weight: bold;
+	border-style: none;
+}
+
+.tbt{
+	background-color: #1DA1F2;
+	border-color: #1DA1F2;
+	font-weight: bold;
+	border-style: none;
+}
+
+.gbt{
+	background-color:  #ea4335;
+	border-color: #ea4335;
+	font-weight: bold;
+	border-style: none;
+}
+
+.travelpic{
+	position: absolute;
+	margin-left: 550px;
+	margin-top: -720px;
+	
+}
